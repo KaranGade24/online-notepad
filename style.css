@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgb(95, 139, 219), rgb(106, 79, 155));
+}
+.mainContainer {
+  /* height: 150vh; */
+  width: 100vw;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.notpad {
+  height: 60%;
+  width: 85%;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 20px;
+  border-bottom: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.title {
+  height: 40px;
+  font-size: 18px;
+  align-content: center;
+  margin: auto;
+  background: #e5e5e5;
+  border-bottom: 1px solid rgb(190, 188, 188);
+  border-top: 1px solid rgb(190, 188, 188);
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.title h3 {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  background: #e5e5e5;
+}
+.menu {
+  height: 40px;
+  background: #ffffff;
+  border-bottom: 1px solid rgb(235, 233, 233);
+}
+.menu button {
+  width: 45px;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.tools {
+  display: flex;
+}
+.file {
+  position: relative;
+}
+.fileOption {
+  position: absolute;
+  width: 120px;
+  background-color: #e5e5e5;
+  top: 100%;
+  left: 8%;
+  border: 1px solid rgb(30, 29, 31);
+}
+
+.fileOption ul {
+  list-style: none;
+}
+.fileOption ul li {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  margin: 2px;
+  /* border-bottom: 1px solid; */
+}
+.fileOption ul li:hover {
+  cursor: pointer;
+  background-color: rgb(41, 173, 224);
+}
+
+.toolbar button {
+  border: 1px solid rgb(226, 223, 223);
+  width: 62px;
+  height: 35px;
+  margin: 1px;
+  background-color: white;
+  padding: 0px 10px;
+}
+
+.toolbar button:hover {
+  background-color: rgb(192, 188, 188);
+}
+
+.main-body {
+  height: 600px;
+  padding: 10px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #ffffff;
+  overflow-y: auto;
+}
+
+.main-body:focus {
+  outline: none;
+}
+
+.main-body:focus div {
+  background: #ffffff !important;
+}
+.main-body div {
+  background: #ffffff !important;
+}
+
+.word {
+  height: 7%;
+  background: #ffffff;
+  border-top: 1px solid rgb(235, 233, 233);
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 5px;
+}

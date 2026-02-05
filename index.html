@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>online NotePad</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <div class="mainContainer">
+      <div class="notpad">
+        <header>
+          <div class="title"><h3>Online Notpad</h3></div>
+          <div class="toolbar menu">
+            <menu class="tools">
+              <div class="file">
+                <button id="fileOptionBtn">file</button>
+
+                <div class="fileOption">
+                  <ul>
+                    <li id="newFileMenuBtn">New File</li>
+                    <li id="saveFileMenuBtn">Save</li>
+                    <!-- <li>Print</li> -->
+                  </ul>
+                </div>
+              </div>
+              <!-- <button>Edit</button> -->
+              <!-- <button>Insert</button> -->
+            </menu>
+          </div>
+          <div class="menu menu2">
+            <menu class="toolbar" type="toolbar">
+              <button id="newFileBtn" title="New File">
+                <i class="fa-solid fa-file-circle-plus"></i>
+              </button>
+              <button
+                title="bold"
+                style="font-weight: bold"
+                id="boldBtn"
+                class="btn"
+              >
+                B
+              </button>
+              <button title="italic" style="font-style: italic" id="italicBtn">
+                I
+              </button>
+            </menu>
+          </div>
+        </header>
+
+        <main>
+          <div spellcheck="true" contenteditable="true" class="main-body"></div>
+        </main>
+        <footer class="word">
+          <span>Words: </span> <span id="word-count">0</span>
+        </footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
