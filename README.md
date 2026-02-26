@@ -4,7 +4,7 @@ Sure! Here's a simple and clean README file for your **Online Notepad** project:
 
 # Live Preview
 
-[Live Previe](https://karangade24.github.io/online-notepad)
+[Live Preview](https://karangade24.github.io/online-notepad)
 
 # Online Notepad
 
@@ -28,7 +28,7 @@ A simple web-based notepad that allows users to create, edit, and save text file
 
 ## How to Use
 
-1. Open [Live Previe](https://karangade24.github.io/online-notepad) OR `index.html` in your browser.
+1. Open [Live Preview](https://karangade24.github.io/online-notepad) OR `index.html` in your browser.
 2. Start typing in the editor.
 3. Use the toolbar buttons to make text **bold** or _italic_.
 4. Use the **File** menu or the top toolbar to create a new file or save your text.
