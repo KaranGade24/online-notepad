@@ -2,6 +2,10 @@ Sure! Here's a simple and clean README file for your **Online Notepad** project:
 
 ---
 
+# Live Preview
+
+https://karangade24.github.io/online-notepad
+
 # Online Notepad
 
 A simple web-based notepad that allows users to create, edit, and save text files with basic formatting options. It also shows a live word count and persists content in the browser using `localStorage`.

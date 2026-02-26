@@ -24,15 +24,20 @@ function getWordCount(text) {
 function newFile(e) {
   e.preventDefault();
   editor.innerHTML = "";
+  wordCount.innerText = "0";
+  localStorage.removeItem("editorText");
 }
 
 // Listen DOM Load
 document.addEventListener("DOMContentLoaded", () => {
   fileOption.style.display = "none";
+  console.log("DOM Loaded", (fileOption.style.display = "none"));
   const editor = document.querySelector(".main-body");
   const editorText = localStorage.getItem("editorText");
   if (editorText) {
     editor.innerHTML = editorText;
+    const count = getWordCount(editor.innerText);
+    wordCount.innerText = count;
   }
 });
 

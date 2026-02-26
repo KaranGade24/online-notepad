@@ -64,6 +64,7 @@ body {
   position: relative;
 }
 .fileOption {
+  display: none;
   position: absolute;
   width: 120px;
   background-color: #e5e5e5;
