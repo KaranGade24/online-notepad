@@ -4,7 +4,9 @@ Sure! Here's a simple and clean README file for your **Online Notepad** project:
 
 # Live Preview
 
-[Live Preview](https://karangade24.github.io/online-notepad)
+Check out the live demo: [![Live Preview](https://img.shields.io/badge/Live%20Preview-Open-blue?style=flat-square)](https://karangade24.github.io/online-notepad)
+
+Or visit directly: https://karangade24.github.io/online-notepad
 
 # Online Notepad
 
